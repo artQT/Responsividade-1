@@ -1,110 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header id="head">
-        <div>
-           <img src="/img/menu.png" alt="menuburguer" id="img-head">
-        </div>
-        
-        <div>
-            <h1 id="title-head">Corporate</h1>
-        </div>
 
-        <div>
-            <p id="button-head">Contact</p>
-        </div>
-    </header>
+    <div id="grid-main">
+        <header id="head">
 
-    <main class="container">
-
-        <section class="content-main">
-
-            <h1 class="main-title">Clareza Institucional. Excelência Corporativa.</h1>
-            <p class="paragraf">Fornecemos estabilidade profissional e confiança inabalável para nossos parceiros e clientes em todo o mundo. Descubra uma nova era de gestão estratégica.</p>
-            <div id="button">
-                <p>Inicie Agora</p>
-                <p>Saiba mais</p>            
+            <div class="content-head">
+                <img src="/img/menu.png" alt="menuburguer" id="img-head">
+                <h1 id="title-head">Corporate</h1>
             </div>
-        
-        </section>
 
-        <section class="content-sobre-nos">
-            
-            <h1 class="title">Sobre Nós</h1>
-            <p>Com décadas de experiência no mercado corporativo, estabelecemos um padrão de excelência baseado em transparência, eficiência e inovação controlada.Nossa missão é simplificar a complexidade para que você possa focar no que realmente importa: o crescimento sustentável da sua organização.</p>
-            <img src="/img/Ambiente corporativo moderno.png" alt="ambiente corporativo moderno">
-        
-        </section>
-        
+            <nav>
+                <p class="menu-nav-EX">Home</p>
+                <p class="menu-nav">About us</p>
+                <p class="menu-nav">Services</p>
+            </nav>
 
-        <section class="content-nossos-servicos">
-            
-            <h1 class="title">Nossos Serviços</h1>
-            <p>Soluções estratégicas desenhadas para alta performance.</p>
+            <div class="content-head">
+                <p id="button-head">Contact</p>
+            </div>
+        </header>
 
-            <article id="content-cards">
-                
-                <div>
-                    <img src="/img/warehouse.png" alt="warehouse">
-                    <h3>Gestão</h3>
-                    <p>Otimização de processos e reestruturação organizacional para máxima eficiência.</p>
+        <main class="container">
+
+            <section class="content-main">
+                <div class="text">
+                    <div>
+                        <h1 class="main-title">Clareza Institucional. Excelência Corporativa.</h1>
+                        <p class="paragraf-main">Fornecemos estabilidade profissional e confiança inabalável para nossos
+                            parceiros e
+                            clientes em todo o mundo. Descubra uma nova era de gestão estratégica.</p>
+                    </div>
+
+                    <div id="button">
+                        <p class="primary-button">Inicie Agora</p>
+                        <p class="second-button">Saiba mais</p>
+                    </div>
                 </div>
 
-                <div>
-                    <img src="/img/grow-up.png" alt="grafico crescentdo">
-                    <h3>Análise de Dados</h3>
-                    <p>Inteligência de mercado baseada em métricas precisas e previsibilidade.</p>
+                <div class="img">
+                    <img src="/img/salao.png" alt="salão" class="room">
+                </div>
+            </section>
+
+            <section class="content-sobre-nos">
+
+                <div class="img">
+                    <img src="/img/auctionGrow.png" alt="ambiente corporativo moderno" id="ambiente-img-big">
                 </div>
 
-                <div>
-                    <img src="/img/auction.png" alt="martelo de juiz">
-                    <h3>Consultoria Legal.</h3>
-                    <p>Assessoria jurídica robusta para garantir conformidade e mitigar riscos.</p>
+                <div class="text">
+                    <h1 class="title-sobre-nos">Sobre Nós</h1>
+                    <p class="paragraf-sobre">Com décadas de experiência no mercado corporativo, estabelecemos um padrão
+                        de
+                        excelência baseado em
+                        transparência, eficiência e inovação controlada.Nossa missão é simplificar a complexidade para
+                        que
+                        você possa focar no que realmente importa: o crescimento sustentável da sua organização.</p>
                 </div>
 
-                <div>
-                    <img src="/img/shield.png" alt="escudo">
-                    <h3>Segurança da Informação.</h3>
-                    <p>Proteção de ativos digitais com os maisaltos padrões institucionais.</p>
-               </div>
-            
-            </article>
-        
-        </section>
+                <img src="/img/Ambiente corporativo moderno.png" alt="ambiente corporativo moderno" id="ambiente-img">
 
-        <section class="content-entre-em-contato">
-            
-            <h1 class="title">Entre em Contato</h1>
-            <p>Agende uma consulta com nossos especialistas</p>
-            
-            <h4>Nome Completo</h4>
-            <div class="container-ask"></div>
+            </section>
 
-            <h4>Email Profissional</h4>
-            <div class="container-ask"></div>
 
-            <h4>Mensagem</h4>
-            <div class="container-ask"></div>
+            <section class="content-nossos-servicos">
 
-            <p class="button">Enviar Solicitação</p>
-        </section>
+                <h1 class="title-nossos-servicos">Nossos Serviços</h1>
+                <p class="subtitle">Soluções estratégicas desenhadas para alta performance.</p>
 
-    </main>
+                <article class="content-cards">
 
-    <footer>
-        <div>
-            <p>CorporateModern</p>
-            <p>© 2024 Corporate Modernism Inc. All rights reserved.</p>
-            <p>Privacy Policy</p>
-            <p>Terms of Service</p>  
-            <p>Cookie Policy</p>
-        </div>
-    </footer>
+                    <div class="card">
+                        <img src="/img/warehouse.png" alt="warehouse" class="icon">
+                        <h3 class="title-card">Gestão</h3>
+                        <p class="paragraf-card">Otimização de processos e reestruturação organizacional para máxima
+                            eficiência.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/img/grow-up.png" alt="grafico crescentdo" class="icon">
+                        <h3 class="title-card">Análise de Dados</h3>
+                        <p class="paragraf-card">Inteligência de mercado baseada em métricas precisas e previsibilidade.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/img/auction.png" alt="martelo de juiz" class="icon">
+                        <h3 class="title-card">Consultoria Legal.</h3>
+                        <p class="paragraf-card">Assessoria jurídica robusta para garantir conformidade e mitigar
+                            riscos.</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/img/shield.png" alt="escudo" class="icon">
+                        <h3 class="title-card">Segurança da Informação.</h3>
+                        <p class="paragraf-card">Proteção de ativos digitais com os maisaltos padrões institucionais.
+                        </p>
+                    </div>
+
+                </article>
+
+            </section>
+
+            <section class="content-entre-em-contato">
+
+                <div class="info-contato">
+                    <h1 class="title-contato">Entre em Contato</h1>
+                    <p class="paragraf-contato">Agende uma consulta com nossos especialistas.</p>
+
+                    <div class="contatos">
+                        <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                        <p>+55 (11) 3000-0000</p>
+                    </div>
+                </div>
+
+                <div class="form-contato">
+                    <h4>Nome Completo</h4>
+                    <div class="container-ask"></div>
+
+                    <h4>Email Profissional</h4>
+                    <div class="container-ask"></div>
+
+                    <h4>Mensagem</h4>
+                    <div class="container-ask"></div>
+
+                    <p class="button">Enviar Solicitação</p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="tile">
+                <p class="title-footer">CorporateModern</p>
+                <p class="text-footer">© 2024 Corporate Modernism Inc. All rights reserved.</p>
+            </div>
+
+            <div class="terms">
+                <p class="text-footer-terms">Privacy Policy</p>
+                <p class="text-footer-terms">Terms of Service</p>
+                <p class="text-footer-terms">Cookie Policy</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
